@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<link rel="stylesheet" href="petHtmlStyles.css">
+<title>Add a Pet</title>
+</head>
+<body>
+	<h1>Add a Pet</h1>
+	<div>
+		<img src="images/doggos.jpg" alt="doggos" class = "puppers">
+	</div>
+	<form action = "addPetServlet" method = "post">
+		<div class="container">
+			Pet Type: <input type = "text" name = "type" class = "addType"><br />
+			<br />
+			Pet Name: <input type = "text" name = "name" class = "addName"><br />
+			<br />
+			Pet Owner: <input type = "text" name = "owner" class = "addOwner"><br />
+		</div>
+		<input type = "submit" value = "Add Pet">
+	</form>
+	<a href = "index.html">Back to List</a><br />
+	<a href = "viewAllPetsServlet">View Complete List</a>
+</body>
+</html>

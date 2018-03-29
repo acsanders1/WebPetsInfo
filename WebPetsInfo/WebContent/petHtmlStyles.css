@@ -1,0 +1,67 @@
+@charset "ISO-8859-1";
+.container {
+	border-style: none;
+	background-color: lightblue;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: auto;
+	margin-bottom: 10px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	text-align: center;
+	font-size: 2em;
+}
+.pets {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+h1 {
+	color: white; 
+	font-size: 64px;
+	font-style: italic;
+	background-color: red;
+	text-align: center;
+	border-style: outset;
+	margin-top: auto;
+	margin-bottom: auto;
+}
+.addType {
+	color: blue;
+	font-size: 32px;
+	border-style: solid;
+}
+.addName {
+	color: blue;
+	font-size: 32px;
+	border-style: solid;
+}	
+.addOwner {
+	color: blue;
+	font-size: 32px;
+	border-style: solid;
+}
+.addPetForm {
+	background-color: lightblue;
+	
+}
+input[type=submit] {
+	background-color: green;
+	border: none;
+	color: white;
+	padding: 16px 32px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+table {
+	width: 100%;
+	text-align: center;
+	font-size: 32px;
+	font-weight: bold;
+}
+.tableBackground {
+	background-image: url("images/paws.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
